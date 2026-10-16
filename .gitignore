@@ -1,4 +1,13 @@
-data/
+data/*
+!data/train/
+!data/test/
+!data/valid/
+data/train/*
+data/test/*
+data/valid/*
+!data/train/README.md
+!data/test/README.md
+!data/valid/README.md
 saved_models/
 venv/
 .venv/
