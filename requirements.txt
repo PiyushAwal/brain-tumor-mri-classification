@@ -1,0 +1,8 @@
+tensorflow>=2.20
+numpy
+pandas
+scikit-learn
+plotly
+streamlit>=1.40,<1.50
+pillow
+matplotlib

@@ -1,0 +1,9 @@
+data/
+saved_models/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+.env
+.ipynb_checkpoints/

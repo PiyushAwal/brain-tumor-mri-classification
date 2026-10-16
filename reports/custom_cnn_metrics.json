@@ -1,0 +1,70 @@
+{
+  "model": "custom_cnn",
+  "class_names": [
+    "glioma",
+    "meningioma",
+    "no_tumor",
+    "pituitary"
+  ],
+  "n_test": 246,
+  "accuracy": 0.3252032520325203,
+  "precision": 0.08130081300813008,
+  "recall": 0.25,
+  "f1": 0.12269938650306748,
+  "weighted_f1": 0.15960895805277073,
+  "latency_ms": 38.17172479667659,
+  "params": 1242980,
+  "size_mb": 5.0844,
+  "confusion_matrix": [
+    [
+      80,
+      0,
+      0,
+      0
+    ],
+    [
+      63,
+      0,
+      0,
+      0
+    ],
+    [
+      49,
+      0,
+      0,
+      0
+    ],
+    [
+      54,
+      0,
+      0,
+      0
+    ]
+  ],
+  "per_class": {
+    "glioma": {
+      "precision": 0.3252032520325203,
+      "recall": 1.0,
+      "f1": 0.49079754601226994,
+      "support": 80
+    },
+    "meningioma": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 63
+    },
+    "no_tumor": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 49
+    },
+    "pituitary": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 54
+    }
+  }
+}
